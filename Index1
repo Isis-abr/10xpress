@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>10Xpress Magazine</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: url('https://via.placeholder.com/1200x800?text=Cityscape+Background') no-repeat center center fixed;
+            background-size: cover;
+            color: white;
+            text-align: center;
+        }
+        .container {
+            padding: 20px;
+        }
+        .title {
+            font-size: 4em;
+            color: #ff00ff;
+            text-shadow: 2px 2px 4px #000;
+            margin-bottom: 10px;
+        }
+        .subtitle {
+            font-size: 1.5em;
+            color: #ff69b4;
+            margin-bottom: 20px;
+        }
+        .issue {
+            font-size: 1.2em;
+            background: rgba(128, 0, 128, 0.7);
+            padding: 10px;
+            display: inline-block;
+            margin-bottom: 20px;
+        }
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .section {
+            background: rgba(0, 0, 0, 0.7);
+            padding: 10px;
+            width: 200px;
+        }
+        .date {
+            font-size: 1.2em;
+            position: absolute;
+            top: 10px;
+            right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="date">August, 2025</div>
+    <div class="container">
+        <div class="title">10Xpress</div>
+        <div class="subtitle">Student Journalism @ 10X Intl. School</div>
+        <div class="issue">Volume #3, Issue #1</div>
+        <div class="content">
+            <div class="section">
+                Editor's Note & Staff<br>Page 1
+            </div>
+            <div class="section">
+                Science<br>Page 2
+            </div>
+            <div class="section">
+                Technology<br>Page 3
+            </div>
+            <div class="section">
+                Business & Economics<br>Page 4
+            </div>
+            <div class="section">
+                Politics<br>Page 5
+            </div>
+            <div class="section">
+                Health & Medicine<br>Page 6
+            </div>
+            <div class="section">
+                Entertainment & Pop Culture<br>Page 7
+            </div>
+            <div class="section">
+                Productivity & Self Help<br>Page 8
+            </div>
+            <div class="section">
+                Reviews<br>Page 9
+            </div>
+            <div class="section">
+                Sports<br>Page 10
+            </div>
+            <div class="section">
+                10X Highlights<br>Page 11
+            </div>
+        </div>
+    </div>
+</body>
+</html>
